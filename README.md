@@ -1,5 +1,5 @@
-This is the backend for the angular app.
-Clone the repo.
+--This is the backend for the angular app.
+--Clone the repo.
 Install composer and php in your system.
 Configure the endpoints.
 While installing composer all the dependencies will be added.

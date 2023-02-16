@@ -33,4 +33,7 @@ Route::post('/signup', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 Route::get('/show', [AuthController::class, 'showtokens']);
 Route::get('/showuser', [AuthController::class, 'showuser']);
+Route::get('/?', function(){
+    return "Well this is running but the connection is not setup";
+});
 

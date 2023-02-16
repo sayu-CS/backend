@@ -65,7 +65,7 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL'),
+            'url' => env('onyx-elevator-376605:australia-southeast1:angular-practice'),
             'host' => env('DB_HOST', '34.116.74.235'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'to-do-list'),
